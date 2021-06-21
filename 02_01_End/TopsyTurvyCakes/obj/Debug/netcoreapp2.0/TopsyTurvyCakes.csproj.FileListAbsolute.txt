@@ -1,0 +1,12 @@
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\bin\Debug\netcoreapp2.0\TopsyTurvyCakes.deps.json
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\bin\Debug\netcoreapp2.0\TopsyTurvyCakes.runtimeconfig.json
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\bin\Debug\netcoreapp2.0\TopsyTurvyCakes.runtimeconfig.dev.json
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\bin\Debug\netcoreapp2.0\TopsyTurvyCakes.dll
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\bin\Debug\netcoreapp2.0\TopsyTurvyCakes.pdb
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\obj\Debug\netcoreapp2.0\TopsyTurvyCakes.csproj.AssemblyReference.cache
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\obj\Debug\netcoreapp2.0\TopsyTurvyCakes.AssemblyInfoInputs.cache
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\obj\Debug\netcoreapp2.0\TopsyTurvyCakes.AssemblyInfo.cs
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\obj\Debug\netcoreapp2.0\TopsyTurvyCakes.csproj.CoreCompileInputs.cache
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\obj\Debug\netcoreapp2.0\TopsyTurvyCakes.dll
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\obj\Debug\netcoreapp2.0\TopsyTurvyCakes.pdb
+C:\Users\A\source\repos\LinkedIn-2\02_01_End\TopsyTurvyCakes\obj\Debug\netcoreapp2.0\TopsyTurvyCakes.genruntimeconfig.cache
