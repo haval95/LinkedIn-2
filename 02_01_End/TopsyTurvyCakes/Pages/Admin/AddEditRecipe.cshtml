@@ -1,0 +1,61 @@
+﻿@page "{Id?}"
+@model TopsyTurvyCakes.Pages.Admin.AddEditRecipeModel
+@{
+    ViewData["Title"] = Model.IsNewRecipe ? "New Recipe" : "Edit Recipe";
+}
+
+<form method="post" class="form-horizontal" enctype="multipart/form-data">
+
+    <div asp-validation-summary="All" class="col-md-offset-2"></div>
+    <div class="form-group">
+        <label asp-for="Recipe.Name" class="control-label col-md-2"></label>
+
+        <div class=" col-md-10">
+            <input type="text" class="form-control" asp-for="Recipe.Name" />
+        </div>
+        <span  asp-validation-for="Recipe.Name" class="col-md-offset-2"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Recipe.Description" class="control-label col-md-2"></label>
+
+        <div class=" col-md-10">
+            <textarea type="text" rows="3" class="form-control" asp-for="Recipe.Description"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Recipe.Ingredients" class="control-label col-md-2"></label>
+
+        <div class=" col-md-10">
+            <textarea type="text" rows="5" class="form-control" asp-for="Recipe.Ingredients"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Recipe.Directions" class="control-label col-md-2"></label>
+
+        <div class=" col-md-10">
+            <textarea type="text" rows="5" class="form-control" asp-for="Recipe.Directions"></textarea>
+        </div>
+    </div>
+
+   
+        <label asp-for="Image" class="control-label col-md-2"></label>
+
+      
+            <input type="file"   asp-for="Image" />
+      
+    <div class="form-group">
+
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-primary">Save</button>
+            @if (!Model.IsNewRecipe)
+            {
+                <button type="submit" class="btn btn-danger" asp-page-handler="Delete">Delete</button>
+            }
+        </div>
+    </div>
+
+</form>
+ 
